@@ -1,0 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  padding-left: calc(50% - 550px);
+  padding-right: calc(50% - 550px);
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  height: 782px;
+  background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8), rgba(238, 61, 27, 0.8) 80%), url(imglanding/top.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  margin-left: 4px;
+  margin-top: 17px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  -moz-column-gap: 178px;
+       column-gap: 178px;
+  height: 100px;
+}
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  background: transparent;
+}
+.header__menu_links {
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;
+}
+.header__menu_links:hover {
+  text-decoration: underline;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+.heading__title {
+  margin-top: 140px;
+  padding-bottom: 39px;
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 86px;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase;
+  background: transparent;
+}
+.heading__text {
+  max-width: 540px;
+  padding-bottom: 39px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  background: transparent;
+}
+.heading__btn {
+  border-radius: 6px;
+  background: rgb(255, 255, 255);
+  width: 160px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ED4C5C;
+  font-family: Lato;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.info {
+  height: 500px;
+  display: flex;
+}
+.info__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 125px;
+  margin-right: 95px;
+}
+.info__text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.info__text_tilte {
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 445px;
+}
+.info__text_desc {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: justify;
+  max-width: 445px;
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+.info__text_link {
+  color: rgb(237, 76, 92);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: justify;
+  text-decoration: none;
+}
+.info__text_link:hover {
+  text-decoration: underline;
+}
+
+.features {
+  background: rgb(250, 250, 250);
+  height: 660px;
+}
+.features__title {
+  height: 40px;
+  font-family: Lato;
+  padding: 63px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+}
+.features__products {
+  display: flex;
+  gap: 30px;
+}
+.features__products_item-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features__products_item-desc {
+  height: 57px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.features__products_item {
+  height: 448px;
+  width: 350px;
+  background-color: #fff;
+  box-shadow: 0px 5px 30px #ccc;
+}
+.features__products_item:hover {
+  box-shadow: 0px 4px 4px #ccc;
+  transition: 0.3s;
+}
+.features__products_item-img {
+  width: 100%;
+  margin-bottom: 33px;
+}
+.features__products_item-title {
+  color: rgb(16, 16, 16);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.features__products_item-desc {
+  color: rgb(16, 16, 16);
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  max-width: 273px;
+}
+.features__products_item-link {
+  color: rgb(237, 76, 92);
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: none;
+}
+.features__products_item-link:hover {
+  text-decoration: underline;
+}
+
+.stay {
+  background: rgb(237, 76, 92);
+  height: 500px;
+  display: flex;
+}
+.stay__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 125px;
+  margin-right: 95px;
+}
+.stay__text {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+.stay__text_title {
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 445px;
+}
+.stay__text_desc {
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: justify;
+  max-width: 445px;
+}
+.stay__img-obj {
+  border-radius: 15px;
+}
+
+.contacts {
+  max-height: 500px;
+  display: flex;
+  padding-top: 117px;
+  margin-bottom: 78px;
+}
+.contacts__wrapper {
+  display: flex;
+  gap: 125px;
+}
+.contacts__title {
+  color: rgb(0, 0, 0);
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 53px;
+}
+.contacts__desc {
+  color: rgb(0, 0, 0);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: justify;
+  max-width: 434px;
+}
+.contacts__input_name-wrapper {
+  display: flex;
+  gap: 30px;
+}
+.contacts__input_name {
+  width: 255px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1px solid rgb(51, 51, 51);
+  border-radius: 6px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-left: 31px;
+  padding-right: 31px;
+}
+.contacts__input_name::-moz-placeholder {
+  color: rgba(19, 39, 67, 0.5);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contacts__input_name::placeholder {
+  color: rgba(19, 39, 67, 0.5);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contacts__input {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.contacts__input_other-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.contacts__input_other {
+  font-family: Lato;
+  font-size: 16px;
+  width: 540px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1px solid rgb(51, 51, 51);
+  border-radius: 6px;
+  padding-left: 31px;
+  padding-right: 31px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.contacts__input_other::-webkit-outer-spin-button, .contacts__input_other::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.contacts__input_other::-moz-placeholder {
+  color: rgba(19, 39, 67, 0.5);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contacts__input_other::placeholder {
+  color: rgba(19, 39, 67, 0.5);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contacts__input_other-option {
+  color: rgba(19, 39, 67, 0.5);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+}
+.contacts__input_btn {
+  margin-top: 3px;
+  width: 160px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1.5px solid rgb(237, 76, 92);
+  border-radius: 6px;
+  background: rgb(237, 76, 92);
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.footer {
+  height: 110px;
+  background: rgb(250, 250, 250);
+  display: flex;
+  align-items: center;
+}
+.footer__text {
+  color: rgb(16, 16, 16);
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+}/*# sourceMappingURL=landingstyle.css.map */
